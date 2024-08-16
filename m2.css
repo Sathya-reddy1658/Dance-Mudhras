@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    height: 100px;
+    background-color: #641220;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home i{
+    color:antiquewhite;
+    font-size: 2rem;
+    padding: 10px;
+}
+.select select{
+    width:200%;
+    height: 30px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border: none;
+
+}
+.about{
+    color: aliceblue;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+.search button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    height: 31px;
+    border: none;
+    background-color: antiquewhite;
+}
+.simage{
+    height:350px;
+    width:250px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.tittle{
+    font-size: 21px;
+    font-weight: 700;
+  margin-left: 20px;
+}
+.hero {
+   
+        background-color: #e2e7e6;
+       display: flex;
+       flex-wrap: wrap;
+       margin: 20px;
+       justify-content: space-evenly;
+ }
+ .box{
+    height:430px;
+    width:23%;
+    padding: 20px 0px 15px;
+   margin-bottom: 25px;
+    background-color: white;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about:hover{
+    cursor: pointer;
+}
