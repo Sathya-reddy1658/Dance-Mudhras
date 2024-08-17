@@ -1,10 +1,15 @@
 .background {
     width: 500px;
     height: 300px;
-    margin:20px;
+    margin:40px;
     display: inline-block;
     background-size: cover; 
     background-position: center;
+    border-radius: 15px;
+ }
+ .background:hover{
+      transform: scale(1.1);
+      transition: all 0.3s ease;
  }
  .container,.contain{
     display: flex;
@@ -33,7 +38,9 @@
  .head h1,h2:hover{
     cursor: pointer;
  }
- 
+ .card{
+   border-radius: 15px;
+ }
  .asam,.sam{
     background-color: aliceblue;
     color: black;

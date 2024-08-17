@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 for (let i = 1; i <= total; i++) {
                     const div = document.createElement('div');
                     div.className = 'background';
-                    div.style.backgroundImage = `url('a${i}.jpg')`;
+                    div.style.backgroundImage = `url('./assets/images/a${i}.jpg')`;
                     container.appendChild(div);
                     console.log(i);
                 }
